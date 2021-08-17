@@ -1,0 +1,56 @@
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+    .col {
+        flex-basis: 50%;
+
+        h1 {
+            color: #fff;
+            font-size: 100px;
+        }
+
+        p {
+            color: #fff;
+            font-size: 11px;
+            line-height: 15px;
+        }
+
+        button {
+            width: 180px;
+            color: #000;
+            font-size: 12px;
+            padding: 12px;
+            background: #fff;
+            border-radius: 20px;
+            margin-top: 30px ;
+        }
+
+        .card {
+            width: 200px;
+            height: 230px;
+            display: inline-block;  
+            border-radius: 10px;
+            padding: 15px 25;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 10px 15px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .card1{
+            background-image: url('/Desert\ Webpage\ Img/pic-1.png');
+        }
+        .card2{
+            background-image: url('/Desert\ Webpage\ Img/pic-2.png');
+        }
+        .card3{
+            background-image: url('/Desert\ Webpage\ Img/pic-3.png');
+        }
+        .card4{
+            background-image: url('/Desert\ Webpage\ Img/pic-4.png');
+        }
+    }
+}

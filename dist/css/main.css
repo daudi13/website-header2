@@ -58,4 +58,70 @@
   color: #fff;
   font-size: 13px;
 }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 88%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row .col {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.row .col h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+.row .col p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.row .col button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.row .col .card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+}
+
+.row .col .card1 {
+  background-image: url("/Desert Webpage Img/pic-1.png");
+}
+
+.row .col .card2 {
+  background-image: url("/Desert Webpage Img/pic-2.png");
+}
+
+.row .col .card3 {
+  background-image: url("/Desert Webpage Img/pic-3.png");
+}
+
+.row .col .card4 {
+  background-image: url("/Desert Webpage Img/pic-4.png");
+}
 /*# sourceMappingURL=main.css.map */
